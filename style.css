@@ -6,7 +6,7 @@
     line-height: 1.5;
     font-family: 'Ubuntu', sans-serif;
     box-sizing: border-box;
-    color: #fff;
+    color: #745E4D;
 }
 button:hover{
     cursor: pointer;
@@ -43,6 +43,7 @@ nav ul li a{
     padding: 0 35px;
     border-right: 1px solid #fff;
     transition: all .5s ease-in-out;
+	color: #ffffff;
 }
 nav ul li a:hover{
     color: #745E4D;
@@ -56,39 +57,156 @@ nav ul li:last-child a{
     margin: 5px 0 0 3px;
 }
 #hero{
-    width: 100%;
-    min-height: 600px;
-    height: 600px;
+    flex:1;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    vertical-align: middle;
-}
-#hero-text p{
-    width: 50%;
-    max-width: 50%;
-    color:#F9AA62;
 }
 
-#hero h5{
-    font-weight: 400;
-    font-size: 1.1em;
+#hero-text p{
+	flex:1;
+    color: #745E4D;
+	margin: 10px 0px 0px -75px;
 }
+
 h1{
 
     font-weight: 700;
-    font-size: 2em;
-    color:#F9AA62;
+    font-size: 2.3em;
+    color:#745E4D;
+	font-family: Quintessential, sans-serif;
 }
 
 #hero p{
-    font-size: 1em;
+	font-family: Oswald;
+    font-size: 1.2em;
     letter-spacing: 1px;
     margin-bottom: 50px;
     text-align: justify;
-    line-height: 2;
+    line-height: 1.6;
+}
+
+#treatments{
+	display: flex;
+	justify-content:space-between;
+	margin: 30px 0px;
+    
+}
+.treat-card {
+	
+	border-color: #745E4D;
+	margin:0 3%;
+}
+.treat-card h2{
+    font-weight: 500;
+    font-size: 1.4em;
+    color:#745E4D;
+	font-family: Oswald, sans-serif;
+}
+.treat-card{
+	flex:1;
+	text-align: center;
+}
+.treat-card img{
+	margin: 10px 0;
+	height:200px;
+}
+
+.treat-card p{
+	margin: 10px 0;
 }
 
 
+#treatments-h2{
+    font-weight: 500;
+    font-size: 1.8em;
+    color:#745E4D;
+	font-family: Oswald, sans-serif;
+}
 
+#treatments div {
+	
+	border-color: #745E4D;
+	border: 1px solid;
+	
+}
+#about-h2{
+    font-weight: 500;
+    font-size: 1.8em;
+    color:#745E4D;
+	font-family: Oswald, sans-serif;
+	
+}
 
+#about-content{
+	display: flex;
+}
+#about-content p{
+	flex: 60%;
+	color:#745E4D;
+	margin: 0 20px 0 0 ;
+	font-family: Oswald;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+#about-content img{	
+	flex: 30%;
+}
+
+#testimonials{
+	display: flex;
+	justify-content: center;
+	margin: 30px 0px;
+    
+}
+
+#testimonials-h2{
+    font-weight: 500;
+    font-size: 1.8em;
+    color:#745E4D;
+	font-family: Oswald, sans-serif;
+}
+
+#testimonials div {
+	
+	border-color: #745E4D;
+	border: 1px solid;
+	
+}
+.testi-card{
+	height: 150px;
+	flex:1;
+	text-align: center;
+	margin:0 3%;
+}
+
+.testi-card img{
+	margin: 10px;
+	height:75px;
+}
+#contact {
+	background: #F9AA62;
+}
+#contact-h2{
+    font-weight: 500;
+    font-size: 1.8em;
+    color:#745E4D;
+	font-family: Oswald, sans-serif;
+}
+
+footer{
+	display:flex;
+	justify-content: center;
+	margin:auto;
+	width:30%;
+
+	
+}
+footer .logo{
+	height:30px;
+	align-items: center;
+	margin: 0 20px;
+	
+}
