@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    color: #fff;
+}
+button:hover{
+    cursor: pointer;
+}
+body{
+    padding: 50px;
+    background: #F1F1F9;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+nav{
+    background-color: #F9AA62;
+    height:75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f7f7f7;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1em;
+    padding: 0 35px;
+    border-right: 1px solid #fff;
+    transition: all .5s ease-in-out;
+}
+nav ul li a:hover{
+    color: #745E4D;
+}
+nav ul li:last-child a{
+    border-right: none;
+}
+.logo img{
+    width:75px;
+    height: 67px;
+    margin: 5px 0 0 3px;
+}
+#hero{
+    width: 100%;
+    min-height: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+#hero-text p{
+    width: 50%;
+    max-width: 50%;
+    color:#F9AA62;
+}
+
+#hero h5{
+    font-weight: 400;
+    font-size: 1.1em;
+}
+h1{
+
+    font-weight: 700;
+    font-size: 2em;
+    color:#F9AA62;
+}
+
+#hero p{
+    font-size: 1em;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    text-align: justify;
+    line-height: 2;
+}
+
+
+
+
