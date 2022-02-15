@@ -6,13 +6,13 @@
     line-height: 1.5;
     font-family: 'Ubuntu', sans-serif;
     box-sizing: border-box;
-    color: #745E4D;
+    color:#000;
 }
 button:hover{
     cursor: pointer;
 }
 body{
-    padding: 50px;
+
     background: #F1F1F9;
 }
 .container{
@@ -59,6 +59,9 @@ nav ul li:last-child a{
 #hero{
     flex:1;
     display: flex;
+    /*justify-content: center;*/
+    align-items: top;
+    vertical-align: middle;
 }
 
 #hero-text p{
@@ -111,7 +114,7 @@ h1{
 }
 
 .treat-card p{
-	margin: 10px 0;
+	margin: 10px 10px;
 }
 
 
@@ -136,24 +139,38 @@ h1{
 	
 }
 
-#about-content{
+#about{
 	display: flex;
 }
-#about-content p{
-	flex: 60%;
-	color:#745E4D;
-	margin: 0 20px 0 0 ;
-	font-family: Oswald;
+#about p{
+    flex:1;
+    margin: 0 40px 0 40px ;
+	/*font-family: Oswald;
+    color:#745E4D;*/
     font-size: 1.2em;
     letter-spacing: 1px;
     margin-bottom: 50px;
     text-align: justify;
     line-height: 1.6;
 }
+#about .headshot{
+    flex:1;
 
-#about-content img{	
-	flex: 30%;
+	margin:0 3%;
 }
+#about img{
+    height:200px;
+    margin: 10px 50px 10px 0;
+}
+#about-h2{
+    
+    font-weight: 500;
+    font-size: 1.8em;
+    color:#745E4D;
+	font-family: Oswald, sans-serif;
+
+}
+
 
 #testimonials{
 	display: flex;
@@ -207,6 +224,6 @@ footer{
 footer .logo{
 	height:30px;
 	align-items: center;
-	margin: 0 20px;
+	margin: 0 20px 50px 0; 
 	
 }
